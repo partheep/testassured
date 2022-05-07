@@ -5,16 +5,12 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class Restassured {
-  WebDriver driver;
-  
-  @BeforeTest
-  public void launch()
-  {
-    System.setProperty("webdriver.chrome.driver","E://chromedriver.exe");
-    driver.get("");
-    driver.manage().window().maximize();
-  }
-  
+	WebDriver driver;
+	@BeforeTest
+	public void  entertintappliacyion()
+	{
+		System.setProperty("webdriver.chrome.driver", "E:\\chromedriver.exe");
+	}
   @Test
   public void f() {
   }

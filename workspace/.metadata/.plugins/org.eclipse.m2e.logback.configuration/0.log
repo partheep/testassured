@@ -842,3 +842,28 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find
 2022-05-07 13:18:38,259 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\workspace\practise\src\main\resources
 2022-05-07 13:18:38,259 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-05-07 13:18:38,259 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\workspace\practise\src\test\resources
+2022-05-07 17:04:45,406 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 17:04:45,406 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\workspace\practise\src\main\resources
+2022-05-07 17:04:45,406 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 17:04:45,406 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\workspace\practise\src\test\resources
+2022-05-07 17:13:31,938 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 17:13:31,938 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\workspace\practise\src\main\resources
+2022-05-07 17:13:31,939 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 17:13:31,939 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\workspace\practise\src\test\resources
+2022-05-07 17:32:41,679 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 17:32:41,679 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\workspace\practise\src\main\resources
+2022-05-07 17:32:41,680 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 17:32:41,680 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\workspace\practise\src\test\resources
+2022-05-07 17:37:45,431 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 17:37:45,431 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\workspace\practise\src\main\resources
+2022-05-07 17:37:45,432 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 17:37:45,432 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\workspace\practise\src\test\resources
+2022-05-07 17:44:47,788 [Worker-57] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.
+2022-05-07 17:49:21,356 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 17:49:21,357 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\workspace\practise\src\main\resources
+2022-05-07 17:49:21,357 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 17:49:21,357 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\workspace\practise\src\test\resources
+2022-05-07 17:50:18,645 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 17:50:18,645 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\workspace\practise\src\main\resources
+2022-05-07 17:50:18,646 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-07 17:50:18,646 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\workspace\practise\src\test\resources
