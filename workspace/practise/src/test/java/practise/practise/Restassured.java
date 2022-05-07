@@ -9,6 +9,8 @@ public class Restassured {
   public void launch()
   {
     System.setproperty("webdriver.chrome.driver","E://chromedriver.exe");
+    driver.get("");
+  }
   @Test
   public void f() {
   }
