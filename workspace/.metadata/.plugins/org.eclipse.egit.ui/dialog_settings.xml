@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://bitbucket.org/partheepbommina/practice/src/master/"/>
+		<item value="https://partheepbommina@bitbucket.org/partheepbommina/practice.git"/>
+		<item value="file:///E:\workspace\process"/>
+		<item value="file:///E:\workspace"/>
+	</list>
+	<list key="CommitDialog.authorValues">
+		<item value="partheepbommina &lt;partheepbommina@gmail.com&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="partheepbommina &lt;partheepbommina@gmail.com&gt;"/>
+	</list>
+	<section name="GitImportWizard">
+	</section>
+	<section name="org.eclipse.egit.ui.COMMIT_DIALOG_SECTION">
+		<item value="790" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="678" key="DIALOG_HEIGHT"/>
+		<item value="574" key="DIALOG_X_ORIGIN"/>
+		<item value="67" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+		<list key="E:\.git">
+			<item value="empty"/>
+		</list>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item value="500,500" key="STAGING_SASH_FORM_WEIGHT"/>
+		<item value="false" key="sortItemState"/>
+		<item value="500,500" key="HORIZONTAL_SASH_FORM_WEIGHT"/>
+	</section>
+</section>

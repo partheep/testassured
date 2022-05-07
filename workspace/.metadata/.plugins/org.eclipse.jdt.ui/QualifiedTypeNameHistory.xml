@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+<fullyQualifiedTypeName name="org.testng.annotations.Optional"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.interactions.Actions"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.Keys"/>
+<fullyQualifiedTypeName name="org.testng.annotations.BeforeTest"/>
+<fullyQualifiedTypeName name="io.restassured.response.Response"/>
+<fullyQualifiedTypeName name="org.testng.annotations.AfterTest"/>
+<fullyQualifiedTypeName name="junit.framework.Assert"/>
+<fullyQualifiedTypeName name="org.testng.Assert"/>
+<fullyQualifiedTypeName name="io.restassured.RestAssured"/>
+<fullyQualifiedTypeName name="testng.process.restassured"/>
+<fullyQualifiedTypeName name="org.codehaus.groovy.transform.EqualsAndHashCodeASTTransformation"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="groovyjarjarantlr.collections.List"/>
+<fullyQualifiedTypeName name="org.testng.annotations.BeforeMethod"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
+<fullyQualifiedTypeName name="org.testng.annotations.AfterMethod"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+<fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+<fullyQualifiedTypeName name="org.testng.annotations.Parameters"/>
+<fullyQualifiedTypeName name="com.aventstack.extentreports.reporter.configuration.ExtentSparkReporterConfig"/>
+<fullyQualifiedTypeName name="com.aventstack.extentreports.model.Test"/>
+<fullyQualifiedTypeName name="com.aventstack.extentreports.ExtentReports"/>
+<fullyQualifiedTypeName name="com.aventstack.extentreports.ExtentTest"/>
+<fullyQualifiedTypeName name="com.aventstack.extentreports.Status"/>
+<fullyQualifiedTypeName name="com.aventstack.extentreports.reporter.ExtentSparkReporter"/>
+</qualifiedTypeNameHistroy>

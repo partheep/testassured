@@ -1,0 +1,9 @@
+package practise.practise;
+
+import org.testng.annotations.Test;
+
+public class newpractise {
+  @Test
+  public void f() {
+  }
+}
