@@ -1,9 +1,0 @@
-package testng.process;
-
-import org.testng.annotations.Test;
-
-public class boostrapdropdown {
-  @Test
-  public void f() {
-  }
-}

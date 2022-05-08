@@ -44,6 +44,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="E:\workspace"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -56,12 +57,15 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="practise.practise"/>
 			<item value="testng.process"/>
 		</list>
 		<list key="groupId">
+			<item value="practise"/>
 			<item value="testng"/>
 		</list>
 		<list key="artifactId">
+			<item value="practise"/>
 			<item value="process"/>
 		</list>
 		<list key="projectNameTemplate">
