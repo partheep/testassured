@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8900" started-at="2022-05-08T12:20:53Z" finished-at="2022-05-08T12:21:02Z">
+  <suite name="Default suite" duration-ms="12124" started-at="2022-05-08T12:32:22Z" finished-at="2022-05-08T12:32:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8900" started-at="2022-05-08T12:20:53Z" finished-at="2022-05-08T12:21:02Z">
+    <test name="Default test" duration-ms="12124" started-at="2022-05-08T12:32:22Z" finished-at="2022-05-08T12:32:34Z">
       <class name="practise.practise.Restassured">
-        <test-method status="PASS" signature="launch()[pri:0, instance:practise.practise.Restassured@3bfdc050]" name="launch" is-config="true" duration-ms="4716" started-at="2022-05-08T17:50:53Z" finished-at="2022-05-08T17:50:58Z">
+        <test-method status="PASS" signature="launch()[pri:0, instance:practise.practise.Restassured@3bfdc050]" name="launch" is-config="true" duration-ms="3395" started-at="2022-05-08T18:02:22Z" finished-at="2022-05-08T18:02:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method status="PASS" signature="vlidate()[pri:0, instance:practise.practise.Restassured@3bfdc050]" name="vlidate" duration-ms="11" started-at="2022-05-08T17:50:58Z" finished-at="2022-05-08T17:50:58Z">
+        <test-method status="PASS" signature="entermaheshbabu()[pri:0, instance:practise.practise.Restassured@3bfdc050]" name="entermaheshbabu" duration-ms="4497" started-at="2022-05-08T18:02:25Z" finished-at="2022-05-08T18:02:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entermaheshbabu -->
+        <test-method status="PASS" signature="vlidate()[pri:0, instance:practise.practise.Restassured@3bfdc050]" name="vlidate" duration-ms="22" started-at="2022-05-08T18:02:30Z" finished-at="2022-05-08T18:02:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- vlidate -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:practise.practise.Restassured@3bfdc050]" name="teardown" is-config="true" duration-ms="4157" started-at="2022-05-08T17:50:58Z" finished-at="2022-05-08T17:51:02Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:practise.practise.Restassured@3bfdc050]" name="teardown" is-config="true" duration-ms="4189" started-at="2022-05-08T18:02:30Z" finished-at="2022-05-08T18:02:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

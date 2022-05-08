@@ -1085,3 +1085,11 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find
 2022-05-08 17:51:14,946 [Worker-25] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
 2022-05-08 17:51:24,141 [Worker-0] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\workspace\practise
 2022-05-08 17:51:24,142 [Worker-0] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2022-05-08 18:02:11,654 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-08 18:02:11,654 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\workspace\practise\src\main\resources
+2022-05-08 18:02:11,656 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-08 18:02:11,656 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\workspace\practise\src\test\resources
+2022-05-08 18:02:46,565 [Worker-30] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\workspace\practise
+2022-05-08 18:02:46,565 [Worker-30] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2022-05-08 18:02:56,639 [Worker-0] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\workspace\practise
+2022-05-08 18:02:56,639 [Worker-0] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install

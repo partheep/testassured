@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,6 +102,11 @@
                       <a href="#" panel-name="suite-vlaidtesuite" class="show-methods passed suite-vlaidtesuite"> (show)</a> <!-- show-methods passed suite-vlaidtesuite -->
                     </span>
                     <div class="method-list-content passed suite-vlaidtesuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-vlaidtesuite" title="practise.practise.Restassured" hash-for-method="entermaheshbabu">entermaheshbabu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-vlaidtesuite" title="practise.practise.Restassured" hash-for-method="vlidate">vlidate</a> <!-- method navigator-link -->
@@ -125,6 +130,13 @@
               <span class="class-name">practise.practise.Restassured</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="entermaheshbabu">
+                  </a> <!-- entermaheshbabu -->
+                  <span class="method-name">entermaheshbabu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="vlidate">
@@ -186,16 +198,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'vlidate')
+data.setCell(0, 1, 'entermaheshbabu')
 data.setCell(0, 2, 'practise.practise.Restassured')
-data.setCell(0, 3, 8);
+data.setCell(0, 3, 2225);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'vlidate')
+data.setCell(1, 2, 'practise.practise.Restassured')
+data.setCell(1, 3, 8);
 window.suiteTableData['vlaidtesuite']= { tableData: data, tableDiv: 'times-div-vlaidtesuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 ms</span>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
               <div id="times-div-vlaidtesuite">
               </div> <!-- times-div-vlaidtesuite -->
             </div> <!-- times-div -->
@@ -227,12 +243,16 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
+                <span class="method-name">entermaheshbabu</span>
+                <span class="method-start">24629 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">vlidate</span>
-                <span class="method-start">3332 ms</span>
+                <span class="method-start">26856 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">3343 ms</span>
+                <span class="method-start">26866 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
