@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="vlaidtesuite">
+  <test name="testng1">
+    <classes>
+      <class name="practise.practise.Restassured"/>
+    </classes>
+  </test> <!-- testng1 -->
+</suite> <!-- vlaidtesuite -->

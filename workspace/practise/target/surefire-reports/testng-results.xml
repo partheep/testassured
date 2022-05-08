@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="vlaidtesuite" duration-ms="7512" started-at="2022-05-08T17:51:29 IST" finished-at="2022-05-08T17:51:37 IST">
+    <groups>
+    </groups>
+    <test name="testng1" duration-ms="7512" started-at="2022-05-08T17:51:29 IST" finished-at="2022-05-08T17:51:37 IST">
+      <class name="practise.practise.Restassured">
+        <test-method status="PASS" signature="launch()[pri:0, instance:practise.practise.Restassured@30a3107a]" name="launch" is-config="true" duration-ms="3309" started-at="2022-05-08T17:51:29 IST" finished-at="2022-05-08T17:51:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="vlidate()[pri:0, instance:practise.practise.Restassured@30a3107a]" name="vlidate" duration-ms="8" started-at="2022-05-08T17:51:32 IST" finished-at="2022-05-08T17:51:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vlidate -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:practise.practise.Restassured@30a3107a]" name="teardown" is-config="true" duration-ms="4166" started-at="2022-05-08T17:51:32 IST" finished-at="2022-05-08T17:51:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- practise.practise.Restassured -->
+    </test> <!-- testng1 -->
+  </suite> <!-- vlaidtesuite -->
+</testng-results>
