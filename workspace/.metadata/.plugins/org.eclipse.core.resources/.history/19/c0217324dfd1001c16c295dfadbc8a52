@@ -43,16 +43,23 @@ public class Excelsheetreader {
 	{
 		String tittle=driver.getTitle();
 		System.out.println( "current page tittle is:"+tittle);
-
+//		WebElement chatbox=driver.findElement(By.xpath("//div[@id='global-nav-typeahead']/input"));
+//		Thread.sleep(4000);
+//		chatbox.sendKeys("sai chaitanya b");
 		Actions ac=new Actions(driver);
-
+//		ac.sendKeys(Keys.ENTER).perform();
 		Thread.sleep(4000);
 		WebElement messagebutton=driver.findElement(By.xpath("//h3[text()='Sai Chaitanya B']/parent::div/parent::div"));
 		Thread.sleep(4000);
 		if(messagebutton.isDisplayed()){
 			System.out.println("messagebutton is dsiplayed");
 			messagebutton.click();
-
+//		     WebElement serachformessage= driver.findElement(By.xpath("//input[@id='msg-overlay-list-bubble-search__search-typeahead-input']"));
+//		     serachformessage.sendKeys("sai chaitanya b");
+//		     ac.sendKeys(Keys.ENTER);
+//		     Thread.sleep(4000);
+//		     WebElement saichaitnaya=driver.findElement(By.xpath("//div[@id='overlay-conversation-card-ember148']/div"));
+//		     saichaitnaya.click();
 		     Thread.sleep(4000);
 		     WebElement saichaitnaya=driver.findElement(By.xpath("//span[text()='Sai Chaitanya B']/parent::a/parent::h2/parent::div"));
 		      if(saichaitnaya.isDisplayed())
