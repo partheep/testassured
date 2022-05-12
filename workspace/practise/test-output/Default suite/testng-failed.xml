@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="practise.practise.Restassured">
+      <class name="practise.practise.Excelsheetreader">
         <methods>
-          <include name="vlidate"/>
-          <include name="launch"/>
+          <include name="launchapp"/>
+          <include name="enterdetails" invocation-numbers="1"/>
+          <include name="closeapp"/>
         </methods>
-      </class> <!-- practise.practise.Restassured -->
+      </class> <!-- practise.practise.Excelsheetreader -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,96 @@
+package practise.practise;
+
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+public class Excelsheetreader {
+	WebDriver driver;
+	
+	@BeforeTest
+	public void launchapp()
+	{
+	System.setProperty("webdriver.chrome.driver", "E:\\chromedriver.exe");
+	driver=new ChromeDriver();
+	driver.get("https://www.linkedin.com/checkpoint/lg/sign-in-another-account");
+	driver.manage().window().maximize();
+	}
+
+	@Test(dataProvider="dataprovider")
+	public void enterdetails(String name,String password)throws Throwable
+	{
+	WebElement username=driver.findElement(By.id("username"));
+	WebElement pasword=driver.findElement(By.id("password"));
+	username.clear();
+	username.sendKeys(name);
+	
+	pasword.clear();
+	pasword.sendKeys(password);
+	
+	Thread.sleep(4000);
+	driver.findElement(By.xpath("//button[text()='Sign in']")).click();
+	Thread.sleep(4000);
+	
+	try
+	{
+		String tittle=driver.getTitle();
+		System.out.println( "current page tittle is:"+tittle);
+//		WebElement chatbox=driver.findElement(By.xpath("//div[@id='global-nav-typeahead']/input"));
+//		Thread.sleep(4000);
+//		chatbox.sendKeys("sai chaitanya b");
+		Actions ac=new Actions(driver);
+//		ac.sendKeys(Keys.ENTER).perform();
+		Thread.sleep(4000);
+		WebElement messagebutton=driver.findElement(By.xpath("//h3[text()='Sai Chaitanya B']/parent::div/parent::div"));
+		Thread.sleep(4000);
+		if(messagebutton.isDisplayed()){
+			System.out.println("messagebutton is dsiplayed");
+			messagebutton.click();
+//		     WebElement serachformessage= driver.findElement(By.xpath("//input[@id='msg-overlay-list-bubble-search__search-typeahead-input']"));
+//		     serachformessage.sendKeys("sai chaitanya b");
+//		     ac.sendKeys(Keys.ENTER);
+//		     Thread.sleep(4000);
+//		     WebElement saichaitnaya=driver.findElement(By.xpath("//div[@id='overlay-conversation-card-ember148']/div"));
+//		     saichaitnaya.click();
+		     Thread.sleep(4000);
+		     WebElement saichaitnaya=driver.findElement(By.xpath("//span[text()='Sai Chaitanya B']/parent::a/parent::h2/parent::div"));
+		      if(saichaitnaya.isDisplayed())
+		     {
+		    	 System.out.println("In saichaitnaya box");
+		    	 driver.findElement(By.xpath("//div[@role='textbox']")).sendKeys("rey rey rey");
+		     }
+		     
+		     
+		}
+		else
+		{
+			System.out.println("unable to find the searchbox");
+		}
+		Thread.sleep(4000);
+	}
+	catch(Exception e)
+	{
+		System.out.println("unable to find the chatbox"+e.getMessage());
+	}
+	}
+	
+  @DataProvider(name="dataprovider")
+  public Object[][] gettestdata() {
+	  Object[][] data={{"partheepbommina@gmail.com","saintpartheep"}};
+	  return data;
+  }
+  
+  @AfterTest
+  public void closeapp()
+  {
+	  driver.close();
+  }
+}

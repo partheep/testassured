@@ -1,0 +1,64 @@
+package practise.practise;
+
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+public class Excelsheetreader {
+	WebDriver driver;
+	
+	@BeforeTest
+	public void launchapp()
+	{
+	System.setProperty("webdriver.chrome.driver", "E:\\chromedriver.exe");
+	driver=new ChromeDriver();
+	driver.get("https://www.linkedin.com/checkpoint/lg/sign-in-another-account");
+	driver.manage().window().maximize();
+	}
+
+	@Test(dataProvider="dataprovider")
+	public void enterdetails(String name,String password)throws Throwable
+	{
+	WebElement username=driver.findElement(By.id("username"));
+	WebElement pasword=driver.findElement(By.id("password"));
+	username.clear();
+	username.sendKeys(name);
+	
+	pasword.clear();
+	pasword.sendKeys(password);
+	
+	Thread.sleep(4000);
+	driver.findElement(By.xpath("//button[text()='Sign in']")).click();
+	Thread.sleep(4000);
+	
+	try
+	{
+		String tittle=driver.getTitle();
+		System.out.println( "current page tittle is:"+tittle);
+		WebElement chatbox=driver.findElement(By.xpath("//h3[contains(text(),'Sai Chaitanya B')]/parent::div/parent::div"));
+		chatbox.click();
+	}
+	catch(Exception e)
+	{
+		
+	}
+	}
+	
+  @DataProvider(name="dataprovider")
+  public Object[][] gettestdata() {
+	  Object[][] data={{"partheepbommina@gmail.com","saintpartheep"}};
+	  return data;
+  }
+  
+  @AfterTest
+  public void closeapp()
+  {
+	  driver.close();
+  }
+}

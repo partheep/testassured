@@ -1,0 +1,38 @@
+package practise.practise;
+
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+public class Excelsheetreader {
+	WebDriver driver;
+	
+	@BeforeTest
+	public void launchapp()
+	{
+	System.setProperty("webdriver.chrome.driver", "E:\\chromedriver.exe");
+	driver.get("");
+	driver.manage().window().maximize();
+	}
+
+	@Test(dataProvider="dataprovider")
+	public void enterdetails(String name,String password)
+	{
+		
+	}
+	
+  @DataProvider(name="dataprovider")
+  public Object[][] gettestdata() {
+	  Object[][] data={{"partehep","saintpartheep"},{"partheepbommina","Saintpartheep"}};
+	  return data;
+  }
+  
+  @AfterTest
+  public void closeapp()
+  {
+	  driver.close();
+  }
+}
